@@ -184,6 +184,7 @@ bool write_job_profile(string basename, string workspace_base)
                     "  /usr/share/sbt-launcher-packaging/** rix,\n"
                     "  /usr/sbin/pbuilder pix,\n"
                     "  /usr/share/meson/** rix,\n"
+                    "  /usr/share/clang/** rix,\n"
                     "  "+workspace_base+'/'+basename+"/** rwlkix,\n"
                     "  "+workspace_base+'/'+basename+"/ r,\n"
                     "  /opt/pbuilder-local-repo/repo/** rw,\n"
